@@ -1,0 +1,95 @@
+body{
+    background-color: gray;
+}
+.buttons{
+    opacity: 0.5; 
+    margin-top: 0%;
+    padding: 15px ;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+    background-color: white;
+}
+
+.buttons img{
+    height: 50px;
+    width: 50px;
+    margin-right: 80%;
+}
+button{
+    opacity: 100%;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 900;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+  
+}
+p{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 100%;
+    padding: 10%;
+    border-collapse: collapse;
+    margin:  auto; /* Center the table horizontally */
+    width: 100%; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0%;
+    height: 10%;
+    width: 10%;
+
+}
+
+#updateGradeBtn {
+    display: block; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+.updateGradeBtnDialog {
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+    text-align: center;
+}
+.text {
+    position: absolute; /* Use absolute positioning to place the text precisely */
+    top: 120px; /* Adjust the top position as needed */
+    left: 170px; /* Adjust the left position as needed */
+    font-weight: 900;
+    font-size: 19px; /* Adjust font size as desired */
+    color: #333; /* Adjust font color as desired */
+}
+
+h1{
+    font-size: 24px; /* Adjust font size as desired */
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}

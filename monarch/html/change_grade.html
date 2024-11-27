@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../assets/css/change_grade.css" />
+  <script src="../assets/js/change_grade.js" defer></script>
+  <title>Add Student</title>
+</head>
+<body>
+  <h1>Add Student</h1>
+  <form method="POST" id="studentForm">
+    <label for="student_name">Name:</label>
+    <input type="text" id="student_name" name="student_name" required /><br /><br />
+
+    <label for="student_id">Student ID:</label>
+    <input type="text" id="student_id" name="student_id" required /><br /><br />
+
+    <input
+      type="button"
+      class="addGradeButton"
+      value="Add Student"
+      onclick="displayInputs()"
+    />
+  </form>
+
+  <!-- Dynamic grade input container -->
+  <div id="addGradeContainer" style="display: none;">
+    <!-- Dynamic inputs will be inserted here -->
+  </div>
+</body>
+</html>

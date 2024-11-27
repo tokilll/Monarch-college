@@ -1,0 +1,45 @@
+body{
+    background-image: url(school.jpg);
+    background-position: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust transparency as needed */
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container img{
+    margin-left: 35%;
+    width: 150px;
+    height: 150px;
+}
+h2{
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    margin-left: 70px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+body{
+    background-color: #b2babb ;
+}
+
+.buttons{
+    opacity: 0.5; 
+    margin-top: 0%;
+    padding: 20px ;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+    background-color: white;
+}
+
+button{
+    opacity: 100%;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: 900;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+table {
+    background-color: rgba(255, 255, 255, 0.7); 
+    box-shadow: 100%;
+    padding: 10%;
+    border-collapse: collapse;
+    margin:  auto; /* Center the table horizontally */
+    width: 100%; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0%;
+    height: 10%;
+    width: 10%;
+
+}
+
+.text {
+    position: absolute; /* Use absolute positioning to place the text precisely */
+    top: 120px; /* Adjust the top position as needed */
+    left: 170px; /* Adjust the left position as needed */
+    font-weight: 900;
+    font-size: 19px; /* Adjust font size as desired */
+    color: #333; /* Adjust font color as desired */
+}
